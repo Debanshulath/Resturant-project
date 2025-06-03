@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="bootstrap/style.css">
+    <style>
+        .centre
+        {
+            text-align: center;
+
+        }
+        td
+        {
+            background-color: lightblue;
+        }
+
+        .border1
+        {
+            background-color: antiquewhite;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 40px;
+        }
+        .vsscode{
+            background-color: antiquewhite;
+            border: 1px solid brown;
+            padding: 50px 30px 40px 20px;
+        }
+        div{
+            text-align: justify;
+        }
+        h4{ text-decoration: overline;}
+        h5{ text-decoration: line-through;}
+        h6{text-decoration: underline;}
+        h1{
+            font-family: "Times New Roman", Times, serif;
+        }
+        h1{
+            font-size: 40px;
+        }
+        h1{
+            font-variant: small-caps;
+        }
+        .border4{
+            border-style: dotted;
+            border-color: red green blue yellow;
+        }
+        .button1{
+            background-color: skyblue;
+            border: 2px solid purple;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: saddlebrown;
+            font-size: 16px;
+            border-radius: 50%;
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+        }
+        .button1:hover{
+            background-color: gray;
+            color: brown;
+        }
+        .disabled{
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        </style>
+</head>
+<body>
+    <h1>HELLO</h1>
+    <h2 style= "color: blue;"> HELLO</h2>
+    <a href="https://www.google.com/" target="_blank">Google</a><br>
+    <img src="assets/image.png" alt="hey" width="200px" height="200px"/><br>
+    <div>
+        <h2>Table</h2>
+        <table border="1"> 
+            <tr>
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+            </tr>
+            <tr>
+                <td>Debanshu</td>
+                <td>Lath</td>
+            </tr>
+        </table>
+    <table>
+    </div>
+    <form>
+            <label for="">Name:</label>
+            <input type="text" name="Name" placeholder="Enter your name" required/></br>
+            <label for="">AGE:</label>
+            <input type="number" name="age" placeholder="Enter your age" min="18" max"60" required/></br>
+            <label for="">Phone:</label>
+            <input type="tel" name="phone" placeholder="Enter your phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/></br>
+            <input type="file" name="file" id="">
+            <input type="submit" value="Submit"/>
+        </form>
+        <p class="centre">This is a paragraph</p>
+        <p>This is another paragraph</p>
+    <h1 class="centre">DEMO</h1>    
+    <p class="border1">Example of padding -margin</p>
+    <img src="assets/download (1).jpeg" alt="lion">
+    <p class="vsscode"> vscode is best coding platform</p>
+    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequatur, nobis quisquam dolorem eius eveniet. Alias incidunt itaque officiis adipisci quidem ipsam blanditiis est repudiandae sunt? Id deserunt architecto dolore!Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequatur, nobis quisquam dolorem eius eveniet. Alias incidunt itaque officiis adipisci quidem ipsam blanditiis est repudiandae sunt? Id deserunt architecto dolore!Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequatur, nobis quisquam dolorem eius eveniet. Alias incidunt itaque officiis adipisci quidem ipsam blanditiis est repudiandae sunt? Id deserunt architecto dolore!Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequatur, nobis quisquam dolorem eius eveniet. Alias incidunt itaque officiis adipisci quidem ipsam blanditiis est repudiandae sunt? Id deserunt architecto dolore!</div>
+    <h5>HELLO</h5>
+     <h4>WORLD</h4>
+     <h6>HOLA</h6>
+     <h1>FONT FAMILY </h1>
+     <p class="border4">helooo  bro</p>
+     <button class="button1">click me</button>
+     <button class="button1 disabled"> click me</button>
+
+<br>
+<br>
+<br>
+
+    <button type="button" class="btn btn-primary">primary</button>
+    <button type="button" class="btn btn-primary">secondary</button>
+    <button type="button" class="btn btn-primary">success</button>
+    <button type="button" class="btn btn-primary">danger</button>
+    <button type="button" class="btn btn-primary">warning</button>
+    <button type="button" class="btn btn-primary">info</button>
+    <button type="button" class="btn btn-primary">light</button>
+    <button type="button" class="btn btn-primary">dark</button>
+    <button type="button" class="btn btn-primary">link</button>
+    </body>
+</html>
